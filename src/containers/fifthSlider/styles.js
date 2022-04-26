@@ -15,28 +15,20 @@ export const Container = styled.div`
 `
 
 export const ContainerImgText = styled.div`
-    padding-top: 125px;
+    padding-top: 10rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 230px;
-
-    div {
-        margin-left: 32px;
-    }
 `
-
 export const RevectImg = styled.img``
-
-
 
 export const ContainerButton = styled.div`
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: .9rem;
     align-items: center;
-    padding: 28px;
-    margin-top: 20px;
+    padding: 2rem;
+    margin-top: 2rem;
 
     div{
         display: flex;
@@ -48,26 +40,26 @@ export const ContainerButton = styled.div`
 export const Label = styled.label`
     font-style: normal;
     font-weight: 700;
-    font-size: 19px;
+    font-size: 1.2rem;
     line-height: 28px;
     color: #FFFFFF;
-    margin-left: 15px;
-    margin-bottom: 10px;
+    margin-left: 1.1rem;
+    margin-bottom: 1rem;
 `
 
 
 export const Input = styled.input`
-    width: 300px;
-    height: 58px;
-    border-radius: 20px;
+    width: 18rem;
+    height: 3.5rem;
+    border-radius: 1.5rem;
     font-style: normal;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 1.3rem;
     line-height: 135%;
     text-align: center;
     color: black;
     border: none;
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
 
     &:active {
         opacity: 0.6;
@@ -76,13 +68,13 @@ export const Input = styled.input`
 
 
 export const Login = styled.button`
-    width: 300px;
-    height: 58px;
+    width: 18rem;
+    height: 3.5rem;
     background: #FF4701;
-    border-radius: 20px;
+    border-radius: 1.5rem;
     font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
+    font-weight: 300;
+    font-size: 1.3rem;
     line-height: 135%;
     text-align: center;
     color: #FFFFFF;
@@ -94,14 +86,14 @@ export const Login = styled.button`
 `
 
 export const Facebook = styled.button`
-    width: 300px;
-    height: 58px;
+    width: 18rem;
+    height: 3.5rem;
     background: #4568AD;
-    border-radius: 20px;
+    border-radius: 1.5rem;
     border: none;
     font-style: normal;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 1.3rem;
     line-height: 135%;
     text-align: center;
     color: #FFFFFF;
@@ -111,7 +103,7 @@ export const Facebook = styled.button`
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        gap: 5px;
+        gap: .5rem;
     }
 
     &:active {
@@ -120,14 +112,14 @@ export const Facebook = styled.button`
 `
 
 export const Gmail = styled.button`
-    width: 300px;
-    height: 58px;
+    width: 18rem;
+    height: 3.5rem;
     background: #E63736;
-    border-radius: 20px;
+    border-radius: 1.5rem;
     border: none;
     font-style: normal;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 1.3rem;
     line-height: 135%;
     text-align: center;
     color: #FFFFFF;
@@ -137,7 +129,7 @@ export const Gmail = styled.button`
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        gap: 5px;
+        gap: .5rem;
     }
 
     &:active {

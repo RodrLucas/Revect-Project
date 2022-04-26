@@ -13,26 +13,18 @@ export const Container = styled.div`
 
 export const ContainerSkip = styled.div`
     text-align: right;
-    padding: 64px 25px;
-
-    p {
-        font-style: normal;
-        font-weight: 500;
-        font-size: 12px;
-        line-height: 16px;
-        color: #FAFAFA;
-    }
+    padding: 4rem 1.5rem;
 `
 
 export const ContainerImgText = styled.div`
-    margin-top: 52px;
+    margin-top: 2.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 230px;
+    gap: 25rem;
 
     div {
-        margin-left: 32px;
+        margin-left: 2rem;
     }
 `
 
@@ -41,16 +33,16 @@ export const RevectImg = styled.img``
 export const Title = styled.h1`
     font-style: normal;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 1.2rem;
     line-height: 24px;
     color: #FAFAFA;
-    margin-bottom: 8px;
+    margin-bottom: .3rem;
 `
 
 export const Paragraph = styled.p`
     font-style: normal;
     font-weight: 500;
-    font-size: 14px;
+    font-size: .9rem;
     line-height: 18px;
     color: #FAFAFA;
 `
@@ -60,18 +52,18 @@ export const ContainerButton = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 28px;
-    margin-top: 32px;
+    padding: 2rem;
+    margin-top: 2rem;
 
     div {
         display: flex;
 
         div{
-            width: 12px;
-            height: 12px;
+            width: .8rem;
+            height: .8rem;
             background: #FAFAFA;
-            margin: 0px 8px;
-            border-radius: 12px;
+            margin: 0px .5rem;
+            border-radius: .8rem;
         }
 
         .thirdDot {
@@ -80,36 +72,16 @@ export const ContainerButton = styled.div`
     }
 `
 
-export const Back = styled.button`
-    width: 70px;
-    height: 25px;
-    background: #FF4701;
-    border-radius: 20px;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 12px;
-    line-height: 135%;
-    text-align: center;
-    color: #FFFFFF;
-    border: none;
-
-    &:active {
-        opacity: 0.6;
-    }
-`
-
-
 export const Next = styled.button`
-    width: 146px;
-    height: 58px;
+    width: 10rem;
+    height: 3rem;
     background: #FF4701;
-    border-radius: 20px;
+    border-radius: 6rem;
     font-style: normal;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 1.2rem;
     line-height: 135%;
     text-align: center;
-    color: #FFFFFF;
     border: none;
 
     &:active {

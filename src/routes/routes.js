@@ -7,6 +7,7 @@ import SeccondSlide from '../containers/seccondSlider'
 import ThirdSlide from '../containers/thirdSlider'
 import ForthSlide from '../containers/fourthSlider'
 import FifthSlide from '../containers/fifthSlider'
+import FirstPage from '../cadastros/firstPage'
 
 
 function Routes() {
@@ -19,6 +20,7 @@ function Routes() {
                 <Route exact component={ThirdSlide} path='/third' />
                 <Route exact component={ForthSlide} path='/fourth' />
                 <Route exact component={FifthSlide} path='/fifth' />
+                <Route exact component={FirstPage} path='/firstPageCadastros' />
             </Switch>
         </Router>
     )

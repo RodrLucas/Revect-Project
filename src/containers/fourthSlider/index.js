@@ -14,7 +14,7 @@ function Inicio() {
             </ContainerImgText>
 
             <ContainerButton>
-                <StartNow><Link to='/fifth' style={{ color: 'white' }}>Começar agora</Link></StartNow>
+                <StartNow><Link to='/firstPageCadastros' style={{ color: 'white' }}>Começar agora</Link></StartNow>
                 
                 <AlreadyHaveAccount><Link to='/fifth' style={{ color: 'white' }}>Já tenho uma conta</Link></AlreadyHaveAccount>
 

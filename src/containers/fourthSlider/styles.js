@@ -15,15 +15,10 @@ export const Container = styled.div`
 `
 
 export const ContainerImgText = styled.div`
-    padding-top: 200px;
+    padding-top: 15rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 230px;
-
-    div {
-        margin-left: 32px;
-    }
 `
 
 export const RevectImg = styled.img``
@@ -33,20 +28,20 @@ export const RevectImg = styled.img``
 export const ContainerButton = styled.div`
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 2rem;
     align-items: center;
-    padding: 28px;
-    margin-top: 20px;
+    padding: 1.5rem;
+    margin-top: 2rem;
 `
 
 export const StartNow = styled.button`
-    width: 300px;
-    height: 58px;
+    width: 18rem;
+    height: 3.5rem;
     background: #FF4701;
-    border-radius: 20px;
+    border-radius: 1.5rem;
     font-style: normal;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 1.3rem;
     line-height: 135%;
     text-align: center;
     color: #FFFFFF;
@@ -58,13 +53,13 @@ export const StartNow = styled.button`
 `
 
 export const AlreadyHaveAccount = styled.button`
-    width: 300px;
-    height: 58px;
+    width: 18rem;
+    height: 3.5rem;
     background: transparent;
-    border-radius: 20px;
+    border-radius: 1.5rem;
     font-style: normal;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 1.3rem;
     line-height: 135%;
     text-align: center;
     color: #FFFFFF;
